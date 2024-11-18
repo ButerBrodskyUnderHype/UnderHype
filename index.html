@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>UnderHype</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Тёмный фон */
+            color: #e0e0e0; /* Светлый цвет текста */
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #121214, #333); /* Тёмный градиент */
+            color: #66b3ff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #66b3ff; /* Светло-синий цвет при наведении */
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 20px;
+            background: #1c1c1c; /* Тёмный фон для секций */
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h2 {
+              text-align: center;
+            color: #66b3ff; /* Светло-синий цвет заголовков */
+        }
+         p {
+          text-align: center;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: #3333;
+            border-radius: 10px;
+            padding: 15px;
+            flex: 1 1 30%; /* Размер карточки */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05); /* Увеличение карточки при наведении */
+ 
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5);
+        }
+        .card h3 {
+            color: #66b3ff; /* Светло-синий цвет для названий альбомов и синглов */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #1c1c1c; /* Тёмный фон для футера */
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+        /* Стиль формы */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+            font-weight: bold; /* Жирный шрифт для меток */
+        }
+        input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #444; /* Тёмная граница */
+            border-radius: 5px;
+            background-color: #333; /* Тёмный фон полей */
+            color: #e0e0e0; /* Цвет текста */
+            transition: border-color 0.3s ease;
+        }
+        input:focus {
+            border-color: #66b3ff; /* Светло-синяя граница при фокусе */
+            outline: none; /* Убираем обводку по умолчанию */
+        }
+        button {
+            padding: 10px;
+            background: #444; /* Тёмный фон для кнопки */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #555; /* Светлее фон при наведении */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="button">
+
+<img src="https://i.imgur.com/zpDza7Z.png" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 150px; height: 150px; vertical-align: middle;margin-bottom: 10px;"> 
+    </h1>
+            <h1>UnderHype</h1>
+            —————————————————————
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> О нас</a></li>
+                <li><a href="#music"><i class="fas fa-envelope"></i> Музыка</a></li>
+                <li><a href="#artists"><i class="fas fa-user"></i> Артисты</a></li>
+                <li><a href="#contact"><i class="fas fa-phone"></i> Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+        
+            <h2><i class="fas fa-info-circle"></i> Добро пожаловать в UnderHype</h2>
+            
+            <p>Музыкальный лейбл, который открывает новые горизонты для талантливых артистов.</p>
+        </section>
+
+        <section id="about">
+            <h2><i class="fas fa-envelope"></i></i></i> О нас</h2>
+            <p>UnderHype был основан с целью поддержки креативных артистов и продвижения их музыки.</p>
+        </section>
+
+        <section id="music">
+            <h2><i class="fas fa-music"></i> Музыка</h2>
+            <div class="cards">
+                <div class="card">
+                                        <img src="https://i.imgur.com/zpDza7Z.png" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 100px; height: 100px; margin-bottom: 10px;">
+
+                    <h3>UnderHype</h3>
+                    <p>Альбом лейбла UnderHype.</p>
+
+                </div>
+                <div class="card">
+                    <img src="https://i.imgur.com/QVuqlQ8.png" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 100px; height: 100px; margin-bottom: 10px;">
+                    <h3>Голый Мужик</h3>
+                    <p>БутерБродский.</p>
+                </div>
+                <div class="card">
+                                        <img src="https://i.imgur.com/skPvBXu.png" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 100px; height: 100px; margin-bottom: 10px;">
+                    <h3>Контр Страйк</h3>
+                    <p>БутерБродский (ft. ВМегаМозг).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="artists">
+            <h2><i class="fas fa-user"></i>Артисты</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://i.imgur.com/pL1PYo0.png" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 100px; height: 100px; margin-bottom: 10px;">
+                    <h3>Rusmers</h3>
+                    <p>Менеджер</p>
+                </div>
+                <div class="card">
+                    <img src="https://avatars.yandex.net/get-music-content/9838169/7e19a440.a.26720548-1/400x400" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 100px; height: 100px; margin-bottom: 10px;">
+                    <h3>Axenovsskiy </h3>
+                    <p>Исполнитель</p>
+                    
+                </div>
+                                <div class="card">
+                    <img src="https://i.imgur.com/KpnEkZV.png" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 100px; height: 100px; margin-bottom: 10px;">
+                    <h3>БутерБродский</h3>
+                    <p>Исполнитель</p>
+                    
+                </div>
+                                <div class="card">
+                    <img src="https://i.imgur.com/DcQPRcB.jpeg" alt="Аватарка Артиста 1" style="border-radius: 25%; width: 100px; height: 100px; margin-bottom: 10px;">
+                    <h3>Вмегамозг</h3>
+                    <p>Исполнитель
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2><i class="fas fa-phone"></i> Контакты</h2>
+                <p>Электронная почта:UnderHype@gmail.com<p>
+        </section>
+    </main>
+
+<footer>
+        <p>&copy; 2023 UnderHype. Все права защищены.</p>
+    </footer>
+</body>
+</html>
